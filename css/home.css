@@ -1,0 +1,156 @@
+body{
+    position: relative;
+    background-image: url("../img/geometrical-quiz-opacity.png");
+  }
+  
+/*   
+  body:before{
+    height: 89vh;
+    content:'';
+    position:absolute;
+    border: 10px solid #6a6a68;
+    top: 40px;
+    left: 25px;
+    right: 25px;
+    z-index:0;
+    
+  }
+   */
+  
+  
+  header {
+    position: relative;
+    height: 18em;
+    overflow: hidden;
+  }
+  
+  /* ################# HOME  #################*/
+  
+  
+  
+  .header__bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#ffd14d;
+    transform: skewY(-20deg);
+    transform-origin: top left;
+    
+    
+  }
+  /* ---------- LOGO  ------------*/
+  .quiz-logo {
+    font-family: 'Ranchers', cursive;
+    font-size: 5em;
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    margin-top: -1.6em;
+  }
+  
+  .quiz-log__character--q{
+    color: #00dad9
+  }
+  .quiz-log__character--u{
+    color: #ff8182
+  }
+  .quiz-log__character--i{
+    display: inline-block;
+    color: #6a6a68;
+    transform: rotate(-180deg);
+  }
+  .quiz-log__character--z{
+    color: #00dad9
+    
+  }
+  
+  /* ---------- BUTTONS  ------------*/
+  
+  .buttons-sections{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-items: center;
+    margin-top: 20%;
+  }
+  
+  
+  .button {  
+    
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 30px;
+    padding: 20px 0;
+    color:white;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .button:hover{
+    font-size: 1.8em;
+  }
+  .button:active{
+    font-size: 1.8em;
+    
+  }
+  
+  .button--pink{
+    background-image: url("../img/brush-pink.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    
+  }
+  .button--yellow{
+    background-image: url("../img/brush-yellow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    
+  }
+  .button--blue{
+    background-image: url("../img/brush-blue.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    
+  }
+
+
+
+  /* ########### MEDIA ############## */
+
+
+@media only screen and (min-width: 750px){
+    .header__bg {
+        transform: skewY(-10deg);
+    }
+    .buttons-sections{
+        margin-top: 15%;
+    }
+
+}
+
+@media only screen and (min-width: 1120px){
+    .header__bg {
+        transform: skewY(-7deg);
+    }
+    .buttons-sections{
+        margin-top: 5%;
+    }
+
+
+}
