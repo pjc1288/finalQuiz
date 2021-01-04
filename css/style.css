@@ -1,0 +1,12 @@
+:root {
+  position: relative;
+  background-image: url("../img/geometrical-quiz-opacity.png");
+}
+
+* {
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  padding: 0;
+  color:#252C4A;
+}
+
