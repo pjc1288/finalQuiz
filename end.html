@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Congrats!</title>
+    <link rel="stylesheet" type="text/css" href="./css/end.css">
+    <link rel="stylesheet" href="./css/style.css"/>
+  </head>
+  <body>
+    
+    <article class='question-block'>
+      <div id="end" class="flex-center flex-column">
+        <h1 id="finalScore"></h1>
+        <form>
+          <input type="text" name="username" id="username" placeholder="username"/>
+          <button type="submit" class="button" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Guardar Puntuación</button>
+        </form>
+        <a class="btn" href="/quiz.html">Reiniciar Quiz</a>
+        <a class="btn" href="/">Inicio</a>
+      </div>
+    </article>
+    <script src="./js/end.js"></script>
+  </body>
+</html>
